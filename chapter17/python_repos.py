@@ -21,15 +21,16 @@ print("Total repositories:", response_dict['total_count'])
 repo_dicts = response_dict['items']
 print("Repositories returned:", len(repo_dicts))
 # 研究第一个仓库（repositoriy）
-repo_1 = repo_dicts[0]
+# repo_1 = repo_dicts[0]
 # print("\nKeys:", len(repo_1))
 # for key in sorted(repo_1.keys()):
 #     print(key)
-print("\nSelected information about first repositories:")
-print("Name:", repo_1['name'])
-print("Owner:", repo_1['owner']['login'])
-print("Stars:", repo_1['stargazers_count'])
-print("Repository:", repo_1['html_url'])
-print("Created at:", repo_1['created_at'])
-print("Updated at:", repo_1['updated_at'])
-print("Description:", repo_1['description'])
+print("\nSelected information about each repositories:")
+for repo_d in repo_dicts:
+    print("\nName:", repo_d['name'])
+    print("Owner:", repo_d['owner']['login'])
+    print("Stars:", repo_d['stargazers_count'])
+    print("Repository:", repo_d['html_url'])
+    # print("Created at:", repo_d['created_at'])
+    # print("Updated at:", repo_d['updated_at'])
+    print("Description:", repo_d['description'])
