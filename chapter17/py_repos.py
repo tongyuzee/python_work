@@ -45,5 +45,5 @@ my_config.width = 1000
 # 绘图
 chart = pygal.Bar(my_config, style=my_style)
 chart.x_labels = names
-chart.add('python', stars)
+chart.add('', stars)
 chart.render_to_file('py_repos.svg')
