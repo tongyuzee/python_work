@@ -29,6 +29,7 @@ for repo_dict in repo_dicts:
     plot_dict = {
         'value': repo_dict['stargazers_count'],
         'label': str(repo_dict['description']),     # str()转化编码
+        'xlink': repo_dict['html_url'],
     }
     plot_dicts.append(plot_dict)
 
