@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92e0c99c-1eb6-4825-9b34-c8b63a28b75e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/learning_log/learning_logs/templates/learning_logs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning_log/learning_logs/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_log/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/learning_log/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning_log/learning_log/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning_log/learning_log/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_log/learning_logs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning_log/learning_logs/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_log/learning_logs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning_log/learning_logs/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/learning_log/learning_log/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="20" column="84" selection-start-line="20" selection-start-column="84" selection-end-line="20" selection-end-column="84" />
+            <state relative-caret-position="469">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding>
                 <element signature="e#636#668#0" expanded="true" />
               </folding>
@@ -109,7 +104,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="15" />
     <option name="y" value="30" />
     <option name="width" value="1890" />
@@ -278,10 +273,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/urls/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-991">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/learning_log/learning_log/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="20" column="84" selection-start-line="20" selection-start-column="84" selection-end-line="20" selection-end-column="84" />
+        <state relative-caret-position="469">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding>
             <element signature="e#636#668#0" expanded="true" />
           </folding>

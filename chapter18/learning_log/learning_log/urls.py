@@ -18,6 +18,8 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('learning_logs.urls')),    # 缺少实参namespace='learning_logs'，与课本想比
-    # path('', learning_logs.urls, namespace='learning_logs'),
+    path('', include(('learning_logs.urls', 'learning_logs'), namespace='learning_logs')),
+    # 不支持在include（）中指定名称空间而不提供app_name
+    # include需要两个参数，arg和namespace, 当namespace不为空时，arg参数必须是一个2元组，除了urlpatterns不能为空之外，app_name也必须填写
+    # path('', include(('apps.urls', 'apps'), namespace='apps_urls'))
 ]
