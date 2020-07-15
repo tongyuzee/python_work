@@ -16,5 +16,5 @@ def csvread(filename, start=0):
         return sig_x
 
 
-dat = csvread("sig.dat")
-dat1 = csvread("5678EDBC.dat", 1)
+dat1 = csvread("sig.dat")
+dat2 = csvread("5678EDBC.dat", 1)
