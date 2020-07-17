@@ -15,7 +15,7 @@ xt = np.cos(2*np.pi*200*t)
 plt.figure(1)
 plt.plot(t, xt)
 
-nf = 1024
+nf = 4098
 f = np.linspace(0, fs, nf, endpoint=False)
 xf = fft(xt, nf)
 # 取绝对值并归一化
