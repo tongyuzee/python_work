@@ -17,10 +17,8 @@ def gcd(m, n):
     """
     if m < n:
         m, n = n, m
-    yushu = m % n
-    while yushu != 0:
-        m, n = n, yushu
-        yushu = m % n
+    while m % n != 0:
+        m, n = n, m % n
     return n
 
 
