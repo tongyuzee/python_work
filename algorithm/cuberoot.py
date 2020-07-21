@@ -9,6 +9,7 @@
 @ Description   : 求立方根
 """
 
+
 def curt(n):
     """求n的立方根"""
     i = 0.0001
