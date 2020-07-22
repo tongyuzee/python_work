@@ -18,7 +18,7 @@ def isprime(n):
     素数是指除了 1 和它本身以外，不能被任何整数整除的数
     """
     if n == 1:
-        return True
+        return False
     elif n == 2 or n == 3:
         return True
     else:
@@ -28,12 +28,12 @@ def isprime(n):
         return True
 
 
-def zhishu(n):
+def primes(n):
     """
-    生成若干素数
+    生成若干素数(prime)
     """
-    q = []
-    for i in range(1, n+1):
+    q = [1]
+    for i in range(2, n+1):
         if isprime(i):
             q.append(i)
     return q
@@ -45,7 +45,7 @@ def gedebahe(m, n):
     """
     q = []
     nn = m - n
-    ls = sorted(zhishu(nn))
+    ls = sorted(primes(nn))
     if nn % 2 != 0 or nn <= 2:
         q = [-1]
     else:
