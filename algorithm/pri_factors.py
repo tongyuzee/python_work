@@ -6,7 +6,7 @@
 @ Project      : algorithm
 @ Date & Time  : 2020/7/23 22:08
 @ FileName     : pri_factors.py
-@ Description  : None
+@ Description  : 求正整数的质数因子（牛逼的算法1）
 """
 import math
 
