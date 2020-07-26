@@ -10,6 +10,5 @@
 """
 
 n, x, flag = int(input()), [int(v) for v in input().split()], int(input())
-
-y = [str(v) for v in sorted(x, reverse=flag)]
+y = [str(v) for v in sorted(x, reverse=bool(flag))]
 print(' '.join(y))
