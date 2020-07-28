@@ -9,6 +9,12 @@
 @ Description   : 自动售货机
 """
 
+"""
+面向对象编程，模拟实现自动售货机的初始化、充值复位、投币、购买商品、找零退币以及查询商品数量和余额的功能
+题目链接：
+https://www.nowcoder.com/practice/cd82dc8a4727404ca5d32fcb487c50bf?tpId=37&&tqId=21321&rp=1&ru=/ta/huawei&qru=/ta/huawei/question-ranking
+"""
+
 
 class Store:
     """自动收货系统"""
@@ -22,7 +28,6 @@ class Store:
 
     def reset(self, a, y):
         """重置系统, 输入参数为整数列表"""
-
         for gk in self.goods.keys():
             self.goods[gk][-1] = a[int(gk[-1]) - 1]
         self.money = {'1': y[0], '2': y[1], '5': y[2], '10': y[3]}
