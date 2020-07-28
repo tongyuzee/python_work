@@ -89,7 +89,7 @@ while True:
                 nums = cmd[2:].split(' ')
                 goods = [int(v) for v in nums[0].split('-')]
                 money = [int(v) for v in nums[1].split('-')]
-                x.reset(goods, money)
+                x.reset(goods[:], money[:])
             elif cmd[0] == 'p':
                 x.coin(cmd[2:])
             elif cmd[0] == 'q':
