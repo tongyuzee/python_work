@@ -66,7 +66,7 @@ class Store:
                     g[gv[-1]] = [gk]
                 else:
                     g[gv[-1]].append(gk)
-            for ci in sorted(g.keys()):
+            for ci in sorted(g.keys(), reverse=True):
                 for cj in sorted(g[ci]):
                     print("{} {} {}".format(cj, self.goods[cj][0], self.goods[cj][-1]))
         else:
@@ -75,18 +75,22 @@ class Store:
 
 
 x = Store()
+while True:
+    command = input("Enter 'q' or 'Q' to quit.\n")
+    if command.lower() == 'q':
+        break
+    else:
+        cmds = command.split(';')
+        while '' in cmds:
+            cmds.remove('')
 
-cmds = input().split(';')
-while '' in cmds:
-    cmds.remove('')
-
-for cmd in cmds:
-    if cmd[0] == 'r':
-        nums = cmd[2:].split(' ')
-        goods = [int(v) for v in nums[0].split('-')]
-        money = [int(v) for v in nums[1].split('-')]
-        x.reset(goods, money)
-    elif cmd[0] == 'p':
-        x.coin(cmd[2:])
-    elif cmd[0] == 'q':
-        x.search(cmd[2:])
+        for cmd in cmds:
+            if cmd[0] == 'r':
+                nums = cmd[2:].split(' ')
+                goods = [int(v) for v in nums[0].split('-')]
+                money = [int(v) for v in nums[1].split('-')]
+                x.reset(goods, money)
+            elif cmd[0] == 'p':
+                x.coin(cmd[2:])
+            elif cmd[0] == 'q':
+                x.search(cmd[2:])
