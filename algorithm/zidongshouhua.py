@@ -77,8 +77,8 @@ class Store:
                 for cj in sorted(g[ci]):
                     print("{} {} {}".format(cj, self.goods[cj][0], self.goods[cj][-1]))
         else:
-            for mk, mv in self.money.items():
-                print("{} yuan coin number={}".format(mk, mv))
+            for mk in ['1', '2', '5', '10']:
+                print("{} yuan coin number={}".format(mk, self.money[mk]))
 
     def buy(self, m):
         """购买商品，输入参数为字符串"""
@@ -103,8 +103,8 @@ class Store:
                     self.balance -= int(mk)
                     self.ch_n[mk] += 1
                     self.money[mk] -= 1
-            for ck, cv in self.ch_n.items():
-                print("{} yuan coin number={}".format(ck, cv))
+            for ck in ['1', '2', '5', '10']:
+                print("{} yuan coin number={}".format(ck, self.ch_n[ck]))
             """退币完成，清零"""
             self.balance = 0
             self.ch_n = {'1': 0, '2': 0, '5': 0, '10': 0}
