@@ -22,7 +22,8 @@ class Store:
     def reset(self, a, y):
         """重置系统, 输入参数为整数列表"""
 
-        self.goods = {'A1': [2, a[0]], 'A2': [3, a[1]], 'A3': [4, a[2]], 'A4': [5, a[3]], 'A5': [8, a[4]], 'A6': [6, a[5]]}
+        for gk in self.goods.keys():
+            self.goods[gk][-1] = a[int(gk[-1])-1]
         self.money = {'1': y[0], '2': y[1], '5': y[2], '10': y[3]}
         print("S001:Initialization is successful")
 
@@ -83,7 +84,6 @@ while True:
         cmds = command.split(';')
         while '' in cmds:
             cmds.remove('')
-
         for cmd in cmds:
             if cmd[0] == 'r':
                 nums = cmd[2:].split(' ')
