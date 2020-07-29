@@ -15,11 +15,13 @@ fen = ['角', '分']
 
 x = input().split('.')
 a = []
-for i, v in enumerate(x[0][::-1]):
-    if v == '0' and i not in [0, 4, 8]:
-        a.append('零')
-    else:
-        a.append(num[int(v)] + dan[i])
+if x[0] != '0':
+    for i, v in enumerate(x[0][::-1]):
+        if v == '0' and i not in [0, 4, 8]:
+            a.append('零')
+        else:
+            a.append(num[int(v)] + dan[i])
+
 b = []
 if x[-1] in ['00', '0']:
     b.append('整')
