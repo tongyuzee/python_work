@@ -22,3 +22,13 @@ for i in range(len(b)) :
     if b[i].isdigit():
         b[i] = '*' + b[i] + '*'
 print(''.join(b))
+
+'''简单方法'''
+x = input()
+a = []
+for v in x:
+    if v.isalpha():
+        a.append(v)
+    else:
+        a.append("*" + v + "*")
+print(''.join(a).replace('**', ''))
