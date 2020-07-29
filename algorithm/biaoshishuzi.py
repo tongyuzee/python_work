@@ -18,7 +18,7 @@ for i in range(0, len(x)-1):
         a.append(i+1)
 b = [x[a[i-1]:a[i]] for i in range(1, len(a))]
 b.append(x[a[-1]:])
-for i in range(len(b)) :
+for i in range(len(b)):
     if b[i].isdigit():
         b[i] = '*' + b[i] + '*'
 print(''.join(b))
