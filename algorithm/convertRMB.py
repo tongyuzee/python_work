@@ -41,6 +41,5 @@ def convert(x):
 num = ['零', '壹', '贰', '叁', '肆', '伍', '陆', '柒', '捌', '玖']
 dan = ['元', '拾', '佰', '仟', '万', '拾', '佰', '仟', '亿', '拾', '佰', '仟']
 fen = ['角', '分']
-
 while True:
     print(convert(input("\nEnter 'q' or 'Q' to quit.\n")))
