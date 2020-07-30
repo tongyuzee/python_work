@@ -9,21 +9,16 @@
 @ Description   : 最长字串
 """
 
-s = "asjrgapa"
+s = input()
 
 l = 0
-for i in range(len(s)):
-    a = []
-    b = []
-    for v in s[i:]:
-        if v not in a:
-            a.append(v)
-        else:
-            if len(a) > l:
-                l = len(a)
-            b.append(a)
-            a = [v]
-    b.append(a)
+a = []
+for v in s:
+    while v in a:
+        a.pop(0)
+    a.append(v)
     if len(a) > l:
         l = len(a)
 print(l)
+
+
