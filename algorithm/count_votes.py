@@ -10,19 +10,11 @@
 """
 
 n, candidate = int(input()), input().strip().split()
+m, vote = int(input()), input().strip().split()
 
-votes = {'Invalid': 0}
-for i in candidate:
-    votes[i] = 0
-
-m, v = int(input()), input().strip().split()
-for i in v:
-    if i in votes.keys():
-        votes[i] += 1
-    else:
-        votes['Invalid'] += 1
-
-for k in sorted(votes.keys()):
-    if k != 'Invalid':
-        print("{} : {}".format(k, votes[k]))
-print("Invalid : {}".format(votes['Invalid']))
+valid = 0
+for c in candidate:
+    if c in vote:
+        valid += vote.count(c)
+    print('{} : {}'.format(c, vote.count(c)))
+print("Invalid : {}".format(m - valid))
