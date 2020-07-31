@@ -25,3 +25,4 @@ for i in v:
 for k in sorted(votes.keys()):
     if k != 'Invalid':
         print("{} : {}".format(k, votes[k]))
+print("Invalid : {}".format(votes['Invalid']))
