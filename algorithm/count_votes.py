@@ -9,6 +9,8 @@
 @ Description   : 统计选票
 """
 
+"""必须按照输入候选人的顺序输出选票数量"""
+
 n, candidate = int(input()), input().strip().split()
 m, vote = int(input()), input().strip().split()
 
