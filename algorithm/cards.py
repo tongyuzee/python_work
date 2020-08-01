@@ -10,6 +10,7 @@
 """
 
 import collections
+from random import choice
 
 Card = collections.namedtuple('Card', ['rank', 'suit'])
 
@@ -36,3 +37,7 @@ print(len(deck))
 print(deck[0])
 print(deck[-1])
 print(deck[2::13])
+print(choice(deck))
+
+for card in deck:
+    print(card)
