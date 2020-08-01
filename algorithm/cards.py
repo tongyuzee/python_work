@@ -19,6 +19,7 @@ class FrenchDeck:
     suits = ['spades', 'diamonds', 'clubs', 'hearts']
 
     def __init__(self):
+        """私有属性"""
         self._cards = [Card(rank, suit) for suit in self.suits for rank in self.ranks]
 
     def __len__(self):
@@ -26,3 +27,12 @@ class FrenchDeck:
 
     def __getitem__(self, item):
         return self._cards[item]
+
+
+deck = FrenchDeck()
+# 通过 特殊（magic）方法 __len__() 实现
+print(len(deck))
+# 通过 特殊（magic）方法 __getitem__() 实现
+print(deck[0])
+print(deck[-1])
+print(deck[2::13])
