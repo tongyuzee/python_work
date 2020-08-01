@@ -10,7 +10,8 @@
 """
 
 import collections
-from random import choice
+
+# from random import choice
 
 Card = collections.namedtuple('Card', ['rank', 'suit'])
 
@@ -30,6 +31,12 @@ class FrenchDeck:
         return self._cards[item]
 
 
+def spades_high(c):
+    suit_value = dict(spades=3, diamonds=1, clubs=0, hearts=2)
+    rank_value = FrenchDeck.ranks.index(c.rank)
+    return rank_value + len(FrenchDeck.ranks) * suit_value[c.suit]
+
+
 deck = FrenchDeck()
 # 通过 特殊（magic）方法 __len__() 实现
 print(len(deck))
@@ -37,7 +44,10 @@ print(len(deck))
 print(deck[0])
 print(deck[-1])
 print(deck[2::13])
-print(choice(deck))
+# print(choice(deck))
 
 for card in deck:
-    print(card)
+    print("{} {} {}".format(card.suit, card.rank, spades_high(card)))
+
+for card in sorted(deck, key=spades_high, reverse=True):
+    print("{:2} {:8} {:2}".format(spades_high(card), card.suit, card.rank))
