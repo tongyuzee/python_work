@@ -26,7 +26,8 @@ class Vector:
         return math.sqrt(self.x ** 2 + self.y ** 2)
 
     def __bool__(self):
-        return bool(abs(self))
+        # return bool(abs(self))
+        return bool(self.x or self.y)
 
     def __add__(self, other):
         """向量加法"""
