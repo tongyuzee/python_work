@@ -22,4 +22,5 @@ for g in sorted(goods.keys(), key=lambda x: goods[x]):
 
 print("按照商品数量排序（逆序）：")
 for g in sorted(sorted(goods.keys(), reverse=True), key=lambda x: goods[x], reverse=True):
+    """先按照keys排序，再按照values排序"""
     print('{} : {}'.format(g, goods[g]))
