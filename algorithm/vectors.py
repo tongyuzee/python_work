@@ -44,3 +44,6 @@ print(v1 + v2)
 print(abs(Vector(3, 4)))
 
 print(v1 * 3)
+
+print(bool(v2))
+print(bool(Vector(0, 0)))
