@@ -9,7 +9,7 @@
 @ Description   : 在字符串中找出连续最长的数字串
 """
 
-x = "abcd12345ed125784980ss123058789"
+x = input()
 a = []
 for v in x:
     if v.isdecimal():
