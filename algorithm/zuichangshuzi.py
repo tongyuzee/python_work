@@ -9,7 +9,7 @@
 @ Description   : 在字符串中找出连续最长的数字串
 """
 
-x = "abcd12345ed125ss123058789"
+x = "abcd12345ed125784980ss123058789"
 a = []
 for v in x:
     if v.isdecimal():
@@ -18,7 +18,12 @@ for v in x:
         a.append(v)
 b = ''.join(a).replace('**', '')
 c = [v for v in b.split('*') if v.isdecimal()]
-d = {len(v): v for v in c}
+d = {}
+for v in c:
+    if len(v) in d.keys():
+        d[len(v)] += v
+    else:
+        d[len(v)] = v
 m = max(d.keys())
 print("{},{}".format(d[m], m))
 
