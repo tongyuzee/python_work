@@ -18,14 +18,8 @@ for v in x:
         a.append(v)
 b = ''.join(a).replace('**', '')
 c = [v for v in b.split('*') if v.isdecimal()]
-d = {}
+d = dict.fromkeys([len(v) for v in c], '')
 for v in c:
-    if len(v) in d.keys():
-        d[len(v)] += v
-    else:
-        d[len(v)] = v
+    d[len(v)] += v
 m = max(d.keys())
 print("{},{}".format(d[m], m))
-
-
-
