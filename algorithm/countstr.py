@@ -12,3 +12,5 @@
 a = set(input())
 b = [v for v in a if 0 <= ord(v) <= 127]
 print(len(b))
+
+print(len(set(input())))
