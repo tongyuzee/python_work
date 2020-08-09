@@ -13,7 +13,7 @@
 输出删除这些单词后的字符串，字符串中其它字符保持原来的顺序。
 """
 
-s = list(input())
+s = input()
 d = {}
 for v in set(s):
     c = s.count(v)
@@ -23,6 +23,5 @@ for v in set(s):
         d[c] = v
 p = min(d.keys())
 for i in d[p]:
-    while i in s:
-        s.remove(i)
-print(''.join(s))
+    s = s.replace(i, '')
+print(s)
