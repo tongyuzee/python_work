@@ -6,7 +6,7 @@
 @ Project       : algorithm
 @ FileName      : fibonacci.py
 @ Date & Time   : 2020/8/10 20:43
-@ Description   : 斐波那契数列
+@ Description   : 斐波那契数列(兔子问题)
 """
 
 
