@@ -11,7 +11,7 @@
 
 
 def fib(n):
-    if n in [1, 2]:
+    if n in [1, 0]:
         return 1
     else:
         a, b = 1, 1
