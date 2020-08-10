@@ -11,17 +11,19 @@
 
 
 def fib(n):
-    if n in [1, 0]:
+    if n in [1, 2]:
         return 1
     else:
         a, b = 1, 1
-        for i in range(2, n+1):
+        for i in range(3, n+1):
             a, b = b, a+b
         return b
 
 
 x = int(input())
 f = []
-for j in range(x):
+for j in range(1, x+1):
     f.append(fib(j))
 print(f)
+
+print(fib(int(input())))
