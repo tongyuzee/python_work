@@ -13,23 +13,23 @@
 规则 2 ：同一个英文字母的大小写同时存在时，按照输入顺序排列。如，输入： BabA 输出： aABb
 规则 3 ：非英文字母的其它字符保持原来的位置。如，输入： By?e 输出： Be?y
 """
-xin = "A Famous Saying: Much Ado About Nothing (2012/8)."
+xin = input()
 
-dn, dp = [], []
+alpha, arg_other = [], []
 for i in range(len(xin)):
     if xin[i].isalpha():
-        dn.append(xin[i])
+        alpha.append(xin[i])
     else:
-        dp.append(i)
-dn.sort(key=lambda x: x.lower())
+        arg_other.append(i)
+alpha.sort(key=lambda x: x.lower())
 
 xout = []
 j = 0
 for i in range(len(xin)):
-    if i in dp:
+    if i in arg_other:
         xout.append(xin[i])
     else:
-        xout.append(dn[j])
+        xout.append(alpha[j])
         j += 1
 
 print(''.join(xout))
