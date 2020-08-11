@@ -31,4 +31,5 @@ for i in range(len(xin)):
     else:
         xout.append(dn[j])
         j += 1
-print(xout)
+
+print(''.join(xout))
