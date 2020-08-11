@@ -14,10 +14,11 @@
 规则 3 ：非英文字母的其它字符保持原来的位置。如，输入： By?e 输出： Be?y
 """
 xin = "A Famous Saying: Much Ado About Nothing (2012/8)."
-x = list(xin)
+# x = list(xin)
 dn, dp = [], []
-for v in xin:
-    if v.isalpha():
-        dn.append(v)
+for i in range(len(xin)):
+    if xin[i].isalpha():
+        dn.append(xin[i])
     else:
-        dp.append(xin.index(v))
+        dp.append(i)
+dn.sort(key=lambda x: x.lower())
