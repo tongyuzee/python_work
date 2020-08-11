@@ -16,20 +16,19 @@
 xin = input()
 
 alpha, arg_other = [], []
-for i in range(len(xin)):
-    if xin[i].isalpha():
-        alpha.append(xin[i])
+for i, v in enumerate(xin):
+    if v.isalpha():
+        alpha.append(v)
     else:
         arg_other.append(i)
 alpha.sort(key=lambda x: x.lower())
 
 xout = []
-j = 0
 for i in range(len(xin)):
     if i in arg_other:
         xout.append(xin[i])
     else:
-        xout.append(alpha[j])
-        j += 1
+        xout.append(alpha[0])
+        alpha.pop(0)
 
 print(''.join(xout))
