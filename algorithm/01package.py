@@ -28,10 +28,16 @@ for i in range(1, n + 1):
         else:
             f[i][j] = f[i-1][j]
 
-temp = 0
+temp, m_j, m_i = 0, 0, 0
 for i in range(1, n + 1):
     for j in range(1, m + 1):
         if f[i][j] > temp:
             temp = f[i][j]
             m_i = i
             m_j = j
+
+x = [0] * n
+for i in range(m_i-1, -1, -1):
+    if f[i][m_j] != f[i-1][m_j]:
+        x[i] = 1
+        m_j -= w[i]
