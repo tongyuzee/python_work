@@ -18,7 +18,10 @@ p = input()
 c = []
 for v in p:
     if v.isupper():
-        c.append(chr(ord(v.lower())+1))
+        if v == 'Z':
+            c.append('a')
+        else:
+            c.append(chr(ord(v.lower())+1))
     elif v.islower():
         c.append(d[v])
     else:
