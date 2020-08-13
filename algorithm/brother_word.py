@@ -8,3 +8,12 @@
 @ Date & Time   : 2020/8/13 17:21
 @ Description   : 查找兄弟单词
 """
+
+n, *d, w, m = input().split()
+
+a = []
+for v in d:
+    if v != w and set(v) == set(w):
+        a.append(v)
+print(len(a))
+print(d[int(m)])
