@@ -13,7 +13,8 @@ n, *d, w, m = input().split()
 
 a = []
 for v in d:
-    if v != w and sorted(list(v)) == sorted(list(w)):
+    if len(v) == len(w) and v != w and set(v) == set(w) and sorted(list(v)) == sorted(list(w)):
         a.append(v)
 print(len(a))
-print(a[int(m)-1])
+if a:
+    print(a[int(m)-1])
