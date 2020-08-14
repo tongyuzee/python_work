@@ -9,6 +9,7 @@
 @ Description   : None
 """
 n, m = input().split()
-a = input().split()
-b = input().split()
-print(' '.join(sorted(list(set(a+b)))))
+a = [int(_) for _ in input().split()]
+b = [int(_) for _ in input().split()]
+for k in sorted(list(set(a+b))):
+    print(k, end=' ')
