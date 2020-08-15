@@ -13,3 +13,5 @@ a = [int(_) for _ in input().split()]
 b = [int(_) for _ in input().split()]
 for k in sorted(list(set(a+b))):
     print(k, end=' ')
+print()
+print(' '.join([str(_) for _ in sorted(list(set(a+b)))]))
