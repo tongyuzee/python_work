@@ -18,7 +18,7 @@
 s = input()
 
 l = 0
-a = []
+a, b = [], []
 for v in s:
     while v in a:
         a.pop(0)
@@ -28,4 +28,3 @@ for v in s:
         b = a[:]
 print(l)
 print(''.join(b))
-
