@@ -25,6 +25,7 @@ for v in s:
     a.append(v)
     if len(a) > l:
         l = len(a)
+        b = a[:]
 print(l)
-
+print(b)
 
