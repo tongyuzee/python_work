@@ -27,5 +27,5 @@ for v in s:
         l = len(a)
         b = a[:]
 print(l)
-print(b)
+print(''.join(b))
 
