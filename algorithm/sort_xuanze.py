@@ -14,7 +14,7 @@ a = [2, 9, 4, 0, 1]
 for i in range(len(a)):
     temp = i
     for j in range(i+1, len(a)):
-        if a[j] > a[temp]:
+        if a[j] < a[temp]:
             temp = j
     a[temp], a[i] = a[i], a[temp]
-
+print(a)
