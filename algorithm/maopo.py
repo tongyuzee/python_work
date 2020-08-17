@@ -9,11 +9,12 @@
 @ Description  : 冒泡排序
 """
 
-a = [int(_) for _ in input().split()]
+# a = [int(_) for _ in input().split()]
+a = [2, 9, 4, 0, 1]
 for i in range(len(a)):
-    for j in range(1, len(a)-i):
-        if a[i] > a[j]:
-            temp = a[j]
-            a[j] = a[i]
-            a[i] = temp
+    for j in range(len(a)-i-1):
+        if a[j] > a[j+1]:
+            temp = a[j+1]
+            a[j+1] = a[j]
+            a[j] = temp
 print(' '.join([str(_) for _ in a]))
