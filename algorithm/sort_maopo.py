@@ -5,7 +5,7 @@
 @ Author       : tongyuze
 @ Project      : algorithm
 @ Date & Time  : 2020/8/17 23:00
-@ FileName     : maopo.py
+@ FileName     : sort_maopo.py
 @ Description  : 冒泡排序
 """
 
