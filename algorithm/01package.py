@@ -25,7 +25,7 @@ n个list的浅拷贝的连接
 修改其中的任何一个元素会改变整个列表
 """
 """f[i][j] 表示在面对第 i 件物品，且背包容量为 j 时所能获得的最大价值"""
-f = [[0] * (m + 1) for i in range(n + 1)]
+f = [[0] * (m + 1) for _ in range(n + 1)]
 
 for i in range(1, n + 1):
     for j in range(1, m + 1):
