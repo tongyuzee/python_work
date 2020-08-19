@@ -12,7 +12,6 @@
 flag = [0, 0, 0, 0]
 psw = 'input()'
 for i, v in enumerate(psw):
-# for v in psw:
     if 3 <= i < len(psw)-3 :
         s = psw[i:i+3]
         if s in psw[0:i]:
