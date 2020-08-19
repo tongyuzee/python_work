@@ -34,5 +34,4 @@ def verify(psw):
         return 'NG'
 
 
-p = '0Aw&50Aw2'
-print(verify(p))
+print(verify(input()))
