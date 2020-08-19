@@ -9,27 +9,32 @@
 @ Description  : 验证密码
 """
 
-flag = [0, 0, 0, 0]
-psw = 'input()'
-for i, v in enumerate(psw):
-    if 3 <= i <= len(psw)-3:
-        s = psw[i:i+3]
-        t = psw[:i]
-        if s in t:
-            print('NG')
-            break
+
+def verify(psw):
+    if len(psw) <= 8:
+        return 'NG'
+    flag = [0, 0, 0, 0]
+    for i, v in enumerate(psw):
+        if 3 <= i <= len(psw) - 3:
+            s = psw[i:i + 3]
+            t = psw[:i]
+            if s in t:
+                return 'NG'
+        if sum(flag) >= 3:
+            return 'OK'
+        elif v.isdecimal():
+            flag[0] = 1
+        elif v.isupper():
+            flag[1] = 1
+        elif v.islower():
+            flag[2] = 1
+        else:
+            flag[3] = 1
     if sum(flag) >= 3:
-        print('OK')
-        break
-    elif v.isdecimal():
-        flag[0] = 1
-    elif v.isupper():
-        flag[1] = 1
-    elif v.islower():
-        flag[2] = 1
+        return 'OK'
     else:
-        flag[3] = 1
-if sum(flag) >= 3:
-    print('OK')
-else:
-    print('NG')
+        return 'NG'
+
+
+p = 'input()'
+print(verify(p))
