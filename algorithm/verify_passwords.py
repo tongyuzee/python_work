@@ -20,9 +20,7 @@ def verify(psw):
             t = psw[:i]
             if s in t:
                 return 'NG'
-        if sum(flag) >= 3:
-            return 'OK'
-        elif v.isdecimal():
+        if v.isdecimal():
             flag[0] = 1
         elif v.isupper():
             flag[1] = 1
@@ -36,5 +34,5 @@ def verify(psw):
         return 'NG'
 
 
-p = 'input()'
+p = '0Aw&50Aw2'
 print(verify(p))
