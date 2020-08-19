@@ -13,7 +13,7 @@
 def move(p, d1, d2):
     """
     坐标移动
-    :param p: 坐标 [x,y]
+    :param p: 坐标 [x,y]  (p相当于数组的地址，在函数内修改函数为外也会改变，可以用p[:]来防止函数外野被修改)
     :param d1: 方向 A W S D
     :param d2: 距离
     """
