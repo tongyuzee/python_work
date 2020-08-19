@@ -12,9 +12,10 @@
 flag = [0, 0, 0, 0]
 psw = 'input()'
 for i, v in enumerate(psw):
-    if 3 <= i < len(psw)-3 :
+    if 3 <= i <= len(psw)-3:
         s = psw[i:i+3]
-        if s in psw[0:i]:
+        t = psw[:i]
+        if s in t:
             print('NG')
             break
     if sum(flag) >= 3:
