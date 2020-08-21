@@ -43,4 +43,5 @@ def merge_sort(arry):
 
 
 a = [8, 2, 6, 4, 5]
-r = merge_sort(a)
+r = merge_sort(a[:])
+print(' '.join([str(_) for _ in r]))
