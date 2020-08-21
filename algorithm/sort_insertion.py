@@ -17,3 +17,4 @@ for i in range(1, len(a)):
         a[j + 1] = a[j]
         j -= 1
     a[j + 1] = key
+print(' '.join([str(_) for _ in a]))
