@@ -14,7 +14,7 @@ def quicksort(arry):
     if len(arry) < 2:
         return arry
     else:
-        key = arry[len(arry)//2]
+        key = arry[0]
         little, equal, large = [], [], []
         for v in arry:
             if v < key:
@@ -26,6 +26,6 @@ def quicksort(arry):
         return quicksort(little) + equal + quicksort(large)
 
 
-a = [8, 6, -4, 9, 10]
+a = [3, 6, -4, 9, 0]
 r = quicksort(a)
 print(' '.join([str(_) for _ in r]))
