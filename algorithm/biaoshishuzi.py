@@ -9,7 +9,6 @@
 @ Description   : 表示数字
 """
 
-
 '''复杂方法'''
 x = input()
 a = [0]
