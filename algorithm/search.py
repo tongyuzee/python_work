@@ -14,7 +14,6 @@ import bisect
 haystack = [1, 4, 5, 6, 8, 10, 15, 17, 18, 19, 25, 30, 31]
 needles = [0, 1, 24, 30, 5, 8, 58, 32, 6, 17]
 
-
 b = input("Enter 'l' or 'r:").lower()
 if b == 'l':
     # bisect_left 返回的插入位置是原序列中和被插入元素相等的元素的位置，即新元素被放在与它相等的元素之前
@@ -34,7 +33,7 @@ for n in sorted(needles, reverse=True):
     offset = '  |' * position
     print(row_fmt.format(n, position, offset))
 
-print('DEMO:', bisect_in.__name__)
+print('\nDEMO:', bisect_in.__name__)
 for n in needles:
     bisect_in(haystack, n)
-    print("{:2d}".format(n), haystack)
+    print("{:2d} ->".format(n), haystack)
