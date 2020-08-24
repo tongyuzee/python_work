@@ -12,11 +12,11 @@
 '''复杂方法'''
 x = input()
 a = [0]
-for i in range(0, len(x)-1):
-    y = x[i:i+2]
+for i in range(0, len(x) - 1):
+    y = x[i:i + 2]
     if not y.isdigit() and not y.isalpha():
-        a.append(i+1)
-b = [x[a[i-1]:a[i]] for i in range(1, len(a))]
+        a.append(i + 1)
+b = [x[a[i - 1]:a[i]] for i in range(1, len(a))]
 b.append(x[a[-1]:])
 for i in range(len(b)):
     if b[i].isdigit():
