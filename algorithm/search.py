@@ -17,8 +17,11 @@ needles = [0, 1, 24, 30, 5, 8, 58, 32, 6, 17]
 
 b = input("Enter 'l' or 'r:").lower()
 if b == 'l':
+    # bisect_left 返回的插入位置是原序列中和被插入元素相等的元素的位置，即新元素被放在与它相等的元素之前
     bisect_fn = bisect.bisect_left
 else:
+    # bisect.bisect = bisect.bisect_right
+    # bisect_right 返回的插入位置是原序列中和被插入元素相等的元素之后的位置，即新元素被放在与它相等的元素之后
     bisect_fn = bisect.bisect_right
 
 print('DEMO:', bisect_fn.__name__)
