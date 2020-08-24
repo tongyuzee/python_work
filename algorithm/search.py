@@ -22,7 +22,7 @@ else:
     bisect_fn = bisect.bisect_right
 
 print('DEMO:', bisect_fn.__name__)
-print('haystack ->', ' '.join('{:2d}'.format(n) for n in needles))
+print('haystack ->', ' '.join('{:2d}'.format(h) for h in haystack))
 
 row_fmt = '{0:2d} @ {1:2d}    {2}{0:<2d}'
 for n in sorted(needles, reverse=True):
