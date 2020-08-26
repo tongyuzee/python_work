@@ -41,6 +41,9 @@ def max_ll(n, l):
         for j in range(i):
             if l[j] < l[i] and dps[j] + 1 > dps[i]:
                 dps[i] = dps[j] + 1
+            # 用max()函数会超时
+            # if l[j] < l[i]:
+            #     dps[i] = max(dps[j] + 1, dps[i])
             ri, rj = n - 1 - i, n - 1 - j
             if l[rj] < l[ri] and dpj[rj] + 1 > dpj[ri]:
                 dpj[ri] = dpj[rj] + 1
