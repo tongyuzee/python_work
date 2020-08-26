@@ -25,7 +25,7 @@ def max_l(l):
     for i in range(n):
         for j in range(i):
             if l[j] < l[i]:
-                dps[i] = max(dps[j]+1, dps[i])
+                dps[i] = max(dps[j] + 1, dps[i])
             if l[j] > l[i]:
                 dpj[i] = max(dpj[j] + 1, dpj[i])
 
