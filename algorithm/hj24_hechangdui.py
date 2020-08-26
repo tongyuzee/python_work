@@ -18,8 +18,7 @@ N位同学站成一排，音乐老师要请其中的(N-K)位同学出列，使�
 """
 
 
-def max_l(l):
-    n = len(l)
+def max_l(n, l):
     dps, dpj = [1] * n, [1] * n
     res = [0] * n
     for i in range(n):
@@ -31,8 +30,10 @@ def max_l(l):
             if l[j] < l[i]:
                 dpj[i] = max(dpj[j] + 1, dpj[i])
         if 0 < i < n - 1:
-            res[i] = max(res[i], dpj[i] + dps[i] - 1)
-    return res
+            res[i] = dpj[i] + dps[i] - 1
+    return n - max(res)
 
 
-m = max_l([186, 186, 150, 200, 160, 130, 197, 200])
+m = int(input())
+p = [int(_) for _ in input().split()]
+print(max_l(m, p))
