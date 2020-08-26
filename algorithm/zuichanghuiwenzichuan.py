@@ -11,7 +11,7 @@
 
 s = 'babad'
 n = len(s)
-dp = [[False] * n for _ in range(n)]
+dp, ans = [[0] * n for _ in range(n)], ''
 for l in range(n):
     for i in range(n):
         j = i + l
@@ -24,3 +24,6 @@ for l in range(n):
                 dp[i][j] = (s[i] == s[j])
             else:
                 dp[i][j] = dp[i+1][j-1] and (s[i] == s[j])
+        if dp[i][j] and len(ans) < l+1:
+            ans = s[i:j+1]
+            print(ans)
