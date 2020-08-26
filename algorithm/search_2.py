@@ -42,7 +42,6 @@ def search_2(n, v, a):
 
 def s2(n, v, a):
     p = bisect.bisect_left(a, v)
-
     return p+1
 
 
