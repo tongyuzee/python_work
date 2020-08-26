@@ -34,6 +34,23 @@ def max_l(n, l):
     return n - max(res)
 
 
-m = int(input())
-p = [int(_) for _ in input().split()]
-print(max_l(m, p))
+def max_ll(n, l):
+    dps, dpj = [1] * n, [1] * n
+    res = [0] * n
+    for i in range(n):
+        for j in range(i):
+            if l[j] < l[i]:
+                dps[i] = max(dps[j] + 1, dps[i])
+            ri, rj = n - 1 - i, n - 1 - j
+            if l[rj] < l[ri]:
+                dpj[ri] = max(dpj[rj] + 1, dpj[ri])
+    for i in range(1, n-1):
+        res[i] = dpj[i] + dps[i] - 1
+    return n - max(res)
+
+
+# m = int(input())
+# p = [int(_) for _ in input().split()]
+m = 8
+p = [186, 186, 150, 200, 160, 130, 197, 200]
+print(max_ll(m, p))
