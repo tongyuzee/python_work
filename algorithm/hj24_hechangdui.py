@@ -44,14 +44,14 @@ def max_ll(n, l):
             ri, rj = n - 1 - i, n - 1 - j
             if l[rj] < l[ri] and dpj[rj] + 1 > dpj[ri]:
                 dpj[ri] = dpj[rj] + 1
-    for i in range(1, n-1):
+    for i in range(1, n - 1):
         if dpj[i] > 1 and dps[i] > 1:
             res = max(res, dpj[i] + dps[i] - 1)
     return n - res
 
 
-# m = int(input())
-# p = [int(_) for _ in input().split()]
-m = 8
-p = [186, 186, 150, 200, 160, 130, 197, 200]
+m = int(input())
+p = [int(_) for _ in input().split()]
+# m = 8
+# p = [186, 186, 150, 200, 160, 130, 197, 200]
 print(max_ll(m, p))
