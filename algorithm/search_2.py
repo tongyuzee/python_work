@@ -26,5 +26,5 @@ def search2(n, v, a):
         return search2(n-midp-1, v, a[midp+1:])
 
 
-x = search2(6, 4, [1, 4, 4, 4, 5, 6])
+x = search2(6, 4, [1, 2, 2, 3, 5, 6])
 print(x)
