@@ -21,15 +21,17 @@ N位同学站成一排，音乐老师要请其中的(N-K)位同学出列，使�
 def max_l(l):
     n = len(l)
     dps, dpj = [1] * n, [1] * n
-    res = 0
+    res = [0] * n
     for i in range(n):
         for j in range(i):
             if l[j] < l[i]:
                 dps[i] = max(dps[j] + 1, dps[i])
-            if l[j] > l[i]:
+    for i in reversed(range(n)):
+        for j in reversed(range(i + 1, n)):
+            if l[j] < l[i]:
                 dpj[i] = max(dpj[j] + 1, dpj[i])
-
-        res = max(res, dpj[i] + dps[i] - 1)
+        if 0 < i < n - 1:
+            res[i] = max(res[i], dpj[i] + dps[i] - 1)
     return res
 
 
