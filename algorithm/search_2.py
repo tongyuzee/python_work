@@ -26,5 +26,18 @@ def search2(n, v, a):
         return search2(n-midp-1, v, a[midp+1:])
 
 
+def search_22(n, v, a):
+    if v > a[n-1]:
+        return n+1
+    l, r = 0, n
+    while l < r:
+        mid = (l + r) // 2
+        if v > a[mid]:
+            l = mid + 1
+        elif v <= a[mid]:
+            r = mid
+    return r+1
+
+
 x = search2(6, 4, [1, 2, 2, 3, 5, 6])
 print(x)
