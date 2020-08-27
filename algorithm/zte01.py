@@ -10,7 +10,7 @@
 """
 
 m, n = [int(_) for _ in input().split()]
-A, ans = [], 0
+A, ans = [], -1e9
 for i in range(m):
     A.append([int(_) for _ in input().split()])
     if i >= 2:
@@ -18,10 +18,4 @@ for i in range(m):
             res = A[i-1][j-1] + A[i-1][j] + A[i-1][j+1] + A[i-2][j] + A[i][j]
             if res > ans:
                 ans = res
-# ans = 0
-# for i in range(1, m-1):
-#     for j in range(1, n-1):
-#         res = sum([A[i][j], A[i-1][j], A[i+1][j], A[i][j-1], A[i][j+1]])
-#         if res > ans:
-#             ans = res
 print(ans)
