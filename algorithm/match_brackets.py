@@ -29,4 +29,5 @@ for i, v in enumerate(s):
             b.pop()
         else:
             b.append(v)
+print(b)
 print(not bool(b))
