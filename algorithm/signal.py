@@ -13,4 +13,3 @@ import numpy
 x = [int(_) for _ in input().split()]
 a = numpy.array(x)
 a.reshape([2, 3])
-
