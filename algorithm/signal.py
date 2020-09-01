@@ -12,4 +12,6 @@ import numpy
 
 x = [int(_) for _ in input().split()]
 a = numpy.array(x)
-a.reshape([2, 3])
+a.reshape([3, 2])
+
+b = numpy.linspace(10)
