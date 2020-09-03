@@ -1,6 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="RunManager">
+  <component name="ChangeListManager">
+    <list default="true" id="5c1b23aa-fddf-4681-bb98-6c4d9b3e4f3c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/base_conversion.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1gzHDGkexsRBk7vT6bfyNmhpKEi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WorkSpace\Python_work\exercise" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.base_conversion">
+    <configuration name="base_conversion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base_conversion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -24,8 +73,81 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.base_conversion" />
         <item itemvalue="Python.numbers" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c1b23aa-fddf-4681-bb98-6c4d9b3e4f3c" name="Default Changelist" comment="" />
+      <created>1599110379882</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599110379882</updated>
+    </task>
+    <task id="LOCAL-00001" summary="clean project">
+      <created>1599110450077</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599110450077</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="clean project" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean project" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="313" y="0" key="CommitChangelistDialog2" timestamp="1599110447519">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="313" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1599110447519" />
+    <state width="1510" height="249" key="GridCell.Tab.0.bottom" timestamp="1599110507885">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1510" height="249" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1599110507885" />
+    <state width="1510" height="249" key="GridCell.Tab.0.center" timestamp="1599110507885">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1510" height="249" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1599110507885" />
+    <state width="1510" height="249" key="GridCell.Tab.0.left" timestamp="1599110507885">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1510" height="249" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1599110507885" />
+    <state width="1510" height="249" key="GridCell.Tab.0.right" timestamp="1599110507885">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1510" height="249" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1599110507885" />
+    <state width="1510" height="249" key="GridCell.Tab.1.bottom" timestamp="1599110507885">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1510" height="249" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1599110507885" />
+    <state width="1510" height="249" key="GridCell.Tab.1.center" timestamp="1599110507885">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1510" height="249" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1599110507885" />
+    <state width="1510" height="249" key="GridCell.Tab.1.left" timestamp="1599110507885">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1510" height="249" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1599110507885" />
+    <state width="1510" height="249" key="GridCell.Tab.1.right" timestamp="1599110507885">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1510" height="249" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1599110507885" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base_conversion.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
