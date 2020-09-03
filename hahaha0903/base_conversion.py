@@ -11,6 +11,7 @@
 
 
 def conv10_n(m, n):
+    """十进制转换成n进制"""
     m = int(m)
     n = int(n)
     r = []
@@ -22,6 +23,7 @@ def conv10_n(m, n):
 
 
 def convn_10(m, n):
+    """n进制转换成10进制"""
     n = int(n)
     r = 0
     for i, v in enumerate(reversed(list(m))):
