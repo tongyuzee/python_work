@@ -6,7 +6,7 @@
 @ Project      : ceshi0903
 @ Date & Time  : 2020/9/3 13:08
 @ FileName     : base_conversion.py
-@ Description  : 禁止转换
+@ Description  : 进制转换
 """
 
 
