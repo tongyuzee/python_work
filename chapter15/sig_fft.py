@@ -6,7 +6,6 @@
 # --------------
 
 import numpy as np
-# from sci
 import matplotlib.pyplot as plt
 
 fs = 4000
