@@ -4,7 +4,7 @@
 @ Project       : Fluent_Py
 @ Date & Time   : 2020/9/5 18:57
 @ FileName      : 2.9array.py
-@ Description   : None
+@ Description   : 数组array
 """
 import array
 
