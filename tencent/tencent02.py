@@ -11,26 +11,28 @@
 
 def find(dp, z):
     zz = []
-    for v in dp:
+    for ii, v in enumerate(dp):
         if z in v:
-            zz += v
-    return list(set(zz))
+            zz.append(ii)
+    return zz
 
 
 m, n = input().split()
 a = []
-for i in range(int(n)):
+for j in range(int(n)):
     a.append(input().split()[1:])
-print(a)
 b = ['0']
+c = []
 i = 0
 while True:
     if i >= len(b):
         break
     x = find(a[:], b[i])
+    for u in x:
+        if u not in c:
+            c.append(u)
+            for uu in a[u]:
+                if uu not in b:
+                    b.append(uu)
     i = i + 1
-    if not x:
-        b += x
-        b = list(set(b))
-
-print(b)
+print(len(b))
