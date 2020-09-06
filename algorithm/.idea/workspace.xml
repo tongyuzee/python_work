@@ -2,83 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbcc151d-45e7-485f-be11-698053537ba0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../digtal_signal/a001.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace-冲突-tongyuze_Win10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/.idea/ceshi0903.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/01package.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/2_dimension.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/Redraiment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/addset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/base_conversion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/biaoshishuzi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/brother_word.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/cards.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/convertRMB.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/countA.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/count_char.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/count_votes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/countstr.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/cuberoot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/cut_str.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/delstr.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/digui_fun.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/fibonacci.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/gdbh.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/hj24_hechangdui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/jifujunzheng.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/lcm&amp;gcd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/legal_ip.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/match_brackets.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/move_position.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/paixu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/password.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/pri_factors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/prime_factor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/records.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/reversed_str.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/search.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/search_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/signal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/sort_dict.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/sort_insertion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/sort_maopo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/sort_merge.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/sort_quick.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/sort_str.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/sort_xuanze.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/sortstr.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/vectors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/verify_passwords.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/zidongshouhua.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/zishou1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/zishoushu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/zte01.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/zuichanghuiwenzichuan.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/zuichangshangshengzixu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/zuichangshangshengzixu1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/zuichangshuzi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/zuichangzichuan.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/zuichangzichuan1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/最长上升子序算法.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ceshi0903/用Python手写五大经典排序算法，看完这篇终于懂了！.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter15/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter15/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter15/sig_fft.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter15/sig_fft.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../digtal_signal/.idea/digtal_signal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../digtal_signal/.idea/digtal_signal.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../digtal_signal/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../digtal_signal/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,8 +66,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.zte01" />
       <item itemvalue="Python.sort_dict" />
+      <item itemvalue="Python.zte01" />
     </list>
     <recent_temporary>
       <list>
