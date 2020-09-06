@@ -2,7 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbcc151d-45e7-485f-be11-698053537ba0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/01package.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/2_dimension.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/Redraiment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/addset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/biaoshishuzi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/brother_word.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/cards.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/convertRMB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/countA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/count_char.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/count_votes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/countstr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/cuberoot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/cut_str.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/delstr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/digui_fun.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/fibonacci.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/gdbh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/hj24_hechangdui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/jifujunzheng.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/lcm&amp;gcd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/legal_ip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/match_brackets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/move_position.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/paixu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/password.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/pri_factors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/prime_factor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/records.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/reversed_str.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/search_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/signal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/sort_dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/sort_insertion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/sort_maopo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/sort_merge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/sort_quick.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/sort_str.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/sort_xuanze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/sortstr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/tencent01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/vectors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/verify_passwords.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/zidongshouhua.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/zishou1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/zishoushu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/zte01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/zuichanghuiwenzichuan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/zuichangshangshengzixu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/zuichangshangshengzixu1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/zuichangshuzi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/zuichangzichuan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fluent_Py/zuichangzichuan1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
