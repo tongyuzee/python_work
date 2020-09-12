@@ -10,9 +10,7 @@
 """
 
 x = input().split(',')
-f = '-1'
-a = []
-j = 0
+f, j, a = '-1', 0, []
 while True:
     b = []
     for i, v in enumerate(x):
