@@ -54,5 +54,5 @@ board = [
     ['S', 'F', 'C', 'S'],
     ['A', 'D', 'E', 'E']
 ]
-word = 'SEE'
+word = 'SES'
 print(exist(board, word))
