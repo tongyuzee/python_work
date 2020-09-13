@@ -25,6 +25,7 @@ def exist(b: List[List[str]], w: str) -> bool:
                     return True
                 else:
                     mark[i][j] = 0
+    return False
 
 
 def backtrack(i, j, mark, b, w):
@@ -54,3 +55,4 @@ board = [
     ['A', 'D', 'E', 'E']
 ]
 word = 'SEE'
+print(exist(board, word))
