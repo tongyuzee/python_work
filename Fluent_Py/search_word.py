@@ -33,7 +33,7 @@ def backtrack(i, j, mark, b, w):
     n = len(b[0])
     if len(w) == 0:
         return True
-    directions = [(0, -1), (0, 1), (1, 0), (-1, 0)]
+    directions = [(-1, 0), (0, -1), (1, 0), (0, 1)]
     for cur_d in directions:
         cur_i, cur_j = cur_d
         cur_i += i
