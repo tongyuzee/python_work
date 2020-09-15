@@ -20,18 +20,12 @@ class Date:
                 self.date[v] = s[j:i]
                 j = i+1
 
-    def pri0(self):
-        print('.'.join(list(self.date.values())[:3]), ':'.join(list(self.date.values())[-3:]))
-
-    def pri1(self):
-        print('-'.join(list(self.date.values())[:3]), '-'.join(list(self.date.values())[-3:]))
-
-    def pri2(self):
-        print(''.join(list(self.date.values())[:3]), ''.join(list(self.date.values())[-3:]))
+    def output(self, vd, vt):
+        print(vd.join(list(self.date.values())[:3]), vt.join(list(self.date.values())[-3:]))
 
 
 x = '2020年09月03日16时34分40秒'
 a = Date(x)
-a.pri0()
-a.pri1()
-a.pri2()
+a.output('.', ':')
+a.output('-', '-')
+a.output('', '')
